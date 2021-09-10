@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: rgb(241, 241, 241); */
+    background-color: white;
+}
+
+.center,.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.form{
+    /* top: 15%;
+    left: 35%;
+    position: absolute; */
+    text-align: center;
+    width: 380px;
+    height: 280px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.headt{
+    /* position: absolute; */
+    color: white;
+    font-size: 25px;
+    background-color: rgb(96, 240, 139);
+    padding: 1px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+h3{
+    margin: 15px;
+    margin-top: 30px;
+}
+
+.up{
+    margin-top: 20px;
+}
+
+input{
+    font-size: 20px;
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 30px;
+    width: 250px;
+    border: none; 
+    border-bottom: 1.9px solid rgb(136, 136, 136);
+    outline: none;
+    transition-duration: 0.5s;
+}
+input:hover{
+    border-bottom: 1.9px solid rgb(0, 0, 0);
+}
+input:focus{
+    border-bottom: 1.9px solid rgb(0, 0, 0);
+}
+
+/* button{
+    border: none;
+    color: white;
+    background-color: rgb(96, 240, 139);
+    margin: 20px;
+    width: 110px;
+    height: 25px;
+    border-radius: 8px;
+} */
+
+button {
+    background-color: rgb(96, 240, 139);
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 15px 2px;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.button1{
+    background-color: white; 
+    color: rgb(96, 240, 139); 
+    border: 2px solid rgb(96, 240, 139);
+}
+.button1:hover{
+    background-color: rgb(96, 240, 139);
+    color: white;
+}
+.button1:active{
+    background-color: rgb(53, 202, 98);
+    border-color: rgb(53, 202, 98);
+}
+
+
+@media only screen and (max-width: 500px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .form{
+        box-shadow: none;
+    }
+    .headt{
+        background-color: white;
+        color: rgb(96, 240, 139);
+    }
+    h3{
+        text-decoration: underline;
+    }
+}
