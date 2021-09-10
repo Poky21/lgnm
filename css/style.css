@@ -84,6 +84,7 @@ button {
     transition-duration: 0.5s;
     cursor: pointer;
     border-radius: 20px;
+    outline: none !important;
 }
 .button1{
     background-color: white; 
