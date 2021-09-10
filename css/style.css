@@ -87,6 +87,7 @@ button {
     outline: none !important;
 }
 .button1{
+    outline: none !important;
     background-color: white; 
     color: rgb(96, 240, 139); 
     border: 2px solid rgb(96, 240, 139);
